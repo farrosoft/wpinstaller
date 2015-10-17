@@ -2,5 +2,10 @@
   "name": "nikolaspapirniywork/wpinstaller",
   "type": "project",
   "license": "MIT",
-  "description": "Installing wordpress"
+  "description": "Installing wordpress",
+  "require": {
+    "php": ">=5.5",
+    "composer/installers": "~1.0.12",
+    "wp-cli/wp-cli": "^0.20.1"
+  }
 }
