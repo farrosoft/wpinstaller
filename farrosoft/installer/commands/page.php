@@ -46,7 +46,7 @@ class Page {
 			Template::setPageTemplate( $page->page_id, $args['page_template'] );
 		}
 
-		if ( array_key_exists( 'menu_name', $args ) ) {
+		if ( array_key_exists( "menu_name", $args ) ) {
 			Menu::addItem( $page->page_id, $args['menu_name'] );
 		}
 	}
