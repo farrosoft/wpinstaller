@@ -1,5 +1,5 @@
 <?php
 
-require_once ('executor.php');
-require_once ('helper.php');
-require_once ('commands/__bootstrap.php');
+require_once (__DIR__ . '/executor.php');
+require_once (__DIR__ . '/helper.php');
+require_once (__DIR__ . '/commands/__bootstrap.php');

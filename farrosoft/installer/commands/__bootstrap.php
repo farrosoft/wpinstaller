@@ -1,10 +1,10 @@
 <?php
 
-require_once ('core.php');
-require_once ('db.php');
-require_once ('page.php');
-require_once( 'theme.php' );
-require_once ('plugin.php');
-require_once ('option.php');
-require_once ('menu.php');
-require_once ('template.php');
+require_once (__DIR__ . '/core.php');
+require_once (__DIR__ . '/db.php');
+require_once (__DIR__ . '/page.php');
+require_once( __DIR__ . '/theme.php' );
+require_once (__DIR__ . '/plugin.php');
+require_once (__DIR__ . '/option.php');
+require_once (__DIR__ . '/menu.php');
+require_once (__DIR__ . '/template.php');
