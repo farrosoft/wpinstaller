@@ -9,8 +9,8 @@
     "wp-cli/wp-cli": "^0.20.1"
   },
   "autoload": {
-    "psr-4": {
-      "farrosoft\\wpinstaller": "farrosoftinstaller"
+    "psr-0": {
+      "farrosoft\\wpinstaller": "farrosoft/installer"
     }
   }
 }
