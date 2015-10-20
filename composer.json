@@ -11,6 +11,7 @@
   "autoload": {
     "psr-0": {
       "farrosoft\\wpinstaller": "farrosoft/installer"
-    }
+    },
+    "files": [ "farrosoft/installer/__bootstrap.php" ]
   }
 }
