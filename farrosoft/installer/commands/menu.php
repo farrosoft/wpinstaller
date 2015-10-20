@@ -8,7 +8,7 @@ require_once (__DIR__ . '/../executor.php');
 
 class Menu {
 	public static function create($menuName) {
-		Executor::runCommand( "menu create\"" . $menuName. "\"");
+		Executor::runCommand( "menu create \"" . $menuName. "\"");
 	}
 
 	public static function assign($menuName, $location) {
